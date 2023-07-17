@@ -3,7 +3,7 @@ from langchain import HuggingFaceHub
 import os
 import argparse
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+# os.environ["HUGGINGFACEHUB_API_TOKEN"] = "TOKEN"
 llm = HuggingFaceHub(repo_id="google/flan-t5-xxl")
 
 
